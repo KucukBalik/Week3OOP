@@ -62,8 +62,23 @@ public class Calculator {
 
     public static void divide(int a, int b) {
 
-        int sum = a / b;
-        System.out.println("The sum is: " + sum);
+        Scanner sc2 = new Scanner(System.in);
+        if(b == 0)
+        {
+            System.out.println("Enter another number except 0: ");
+            int c = sc2.nextInt();
+
+            int sum = a / c;
+
+            System.out.println("The sum is: " + sum);
+        }
+        else {
+            int sum = a / b;
+
+            System.out.println("The sum is: " + sum);
+        }
+
+
 
     }
 }
