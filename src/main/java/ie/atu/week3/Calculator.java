@@ -56,6 +56,5 @@ public class Calculator {
         int sum = a * b;
         System.out.println("The sum is: " + sum);
 
-
     }
 }
