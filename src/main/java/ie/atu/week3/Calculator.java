@@ -25,6 +25,7 @@ public class Calculator {
 
             default:
                 System.out.println("Invalid Operation"); break;
+
         }
 
     }
