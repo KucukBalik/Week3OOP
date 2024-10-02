@@ -25,6 +25,8 @@ public class Calculator {
 
             case "subtract": subtract(a, b); break;
 
+            case "multiply": multiply(a, b); break;
+
             default:
                 System.out.println("Invalid Operation"); break;
 
@@ -45,6 +47,14 @@ public class Calculator {
         int sum = a - b;
         System.out.println("The sum is: " + sum);
 
+
+    }
+
+
+    public static void multiply(int a, int b) {
+
+        int sum = a * b;
+        System.out.println("The sum is: " + sum);
 
     }
 }
