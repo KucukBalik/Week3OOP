@@ -29,6 +29,8 @@ public class Calculator {
 
             case "divide": divide(a, b); break;
 
+            case "power": power(a, b); break;
+
             default:
                 System.out.println("Invalid Operation"); break;
 
@@ -77,8 +79,15 @@ public class Calculator {
 
             System.out.println("The sum is: " + sum);
         }
+    }
 
+
+        public static void power(int a, int b) {
+
+            double sum = Math.pow(a, b);
+            System.out.println("The sum is: " + sum);
+
+        }
 
 
     }
-}
